@@ -1,0 +1,15 @@
+---
+title: "Plotly"
+author: "Polu Ashok Kumar Reddy Polu"
+date: "December 11, 2017"
+output: ioslides_presentation
+---
+```{r,include=FALSE}
+library(plotly)
+```
+##Creating Sample graph using IRIS
+
+```{r,echo=FALSE,warning=FALSE}
+
+plot_ly(data=iris,x=~Sepal.Length,y=~Petal.Length,mode='markers')
+```
